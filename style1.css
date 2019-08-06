@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utilities */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.modern {
+    color: red;
+}
+
+.logo {
+    color: green;
+    cursor: pointer;
+}
+
+/* Navbar  */
+
+/* #navbar  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .main-nav, h1, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+#navbar {
+    background: #333;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+    color: #000;
+}
+
+ul li a:hover {
+    color: green;
+}
+
